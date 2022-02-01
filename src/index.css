@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #202942;
+  color: #fff;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+.subtitle {
+  margin: 0 0 20px;
+  font-size: 14px;
+}
+
+.form {
+  max-width: 768px;
+  margin: auto;
+  padding: 0 20px;
+
+}
+
+.field-label {
+  font-weight:600;
+}
+
+.field-input {
+  margin: 0 20px;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 768px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.study-label {
+  font-weight: 600;
+  margin: 0 10px;
+}
+header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 15px;
+  padding: 40px 50px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.card h2 {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.message {
+  padding-top: 10px;
+  text-align: center;
+  color: rebeccapurple;
+}
+
+.btn {
+  background-color: #fd7216;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+
+}
+
+.class-selection-chart {
+  display: flex;
+  flex-direction: row;
+}
+
+.column,
+.schedule-dates {
+  margin: 0 20px;
+}
